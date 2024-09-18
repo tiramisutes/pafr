@@ -168,7 +168,7 @@ dotplot <- function(ali, order_by = c("size", "qstart", "provided"),
                        angle = 90, vjust = 1, check_overlap = TRUE) +
              geom_text(data = tname_df,
                        aes_string(label = "seq_name", x = "0", y = "centre"),
-                       vjust = 0, check_overlap = TRUE)
+                       vjust = 1, check_overlap = TRUE)
   }
   # We want to be able to annotated the dotpot with data in BED format. Adding
   # arugments to this fxn wouldbe pretty unwieldy, so we want to take advantage
