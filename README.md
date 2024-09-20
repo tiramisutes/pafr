@@ -5,6 +5,7 @@ pafr
 ====
 
 Read, manipulate and visualize 'Pairwise mApping Format' data in R
+修改 Query 和 Target 基因组的ID编号为垂直, 原来为水平方向, 存在部分ID不显示的问题。
 
 Install
 -------
