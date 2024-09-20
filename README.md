@@ -13,7 +13,7 @@ The package is not yet available on CRAN, but we will keep the master branch of 
 
 ``` r
 #install.packages(devtools)
-devtools::install_github("dwinter/pafr")
+devtools::install_github("tiramisutes/pafr")
 ```
 
 Read in a .paf file and check it out
